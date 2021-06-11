@@ -1,0 +1,38 @@
+body {
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+  header {
+    background-color:black;
+    height: 100px;
+    width: 100%;
+}
+#sitelogo {
+    display:flex;
+    color: white;
+    font-family:cursive;
+    align-items: center;
+    margin-left: 15px;
+}
+#navbar {
+    display: flex;
+    justify-content:space-between;
+}
+#navmenu {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-right: 15px;
+    }
+#mainfooter {
+    display: flex;
+    margin-top: auto;
+    background-color: aqua;
+    height: 100px;
+    width: 100%;
+
+}
+.maincontent {
+    flex: 1;
+}
